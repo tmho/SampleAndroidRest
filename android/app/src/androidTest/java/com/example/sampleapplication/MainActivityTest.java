@@ -20,7 +20,7 @@ public class MainActivityTest extends ActivityInstrumentationTestCase2<MainActiv
         getActivity();
     }
 
-    public void testButtonGetsDisabledWhenNoTestIsPresent() {
+    public void testButtonGetsDisabledWhenNoInputIsPresent() {
         onView(withId(R.id.submit_button)).check(ViewAssertions.matches(not(ViewMatchers.isEnabled())));
         onView(withId(R.id.name_input)).perform(typeText("Hello"));
         onView(withId(R.id.submit_button)).check(ViewAssertions.matches(ViewMatchers.isEnabled()));
