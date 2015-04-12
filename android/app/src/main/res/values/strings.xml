@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SampleApplication</string>
+    <string name="name_label">Name:</string>
+    <string name="submit_button_label">Submit!</string>
+    <string name="failed_login_message">Login failed, please try again</string>
+    <string name="name_error_no_value">Enter your name</string>
+</resources>

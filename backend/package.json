@@ -1,0 +1,19 @@
+{
+    "name": "sill-backend",
+    "version": "0.0.1",
+    "private": true,
+    "main": "backend",
+    "author": {
+        "name": "Tim Osmond"
+    },
+    "dependencies": {
+        "restify": "2.8.x"
+    },
+    "engines": {
+        "node": "0.10.x",
+        "npm": "1.2.x"
+    },
+    "scripts": {
+        "start": "node backend"
+    }
+}

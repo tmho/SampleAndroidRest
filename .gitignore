@@ -1,0 +1,5 @@
+android/.idea
+android/*.iml
+android/app/*.iml
+backend/npm-debug.log
+backend/node_modules
